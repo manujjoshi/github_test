@@ -1,0 +1,500 @@
+   66  git he
+   67  git clone https://github.com/manujjoshi/Kubernetes.git
+   68  git status
+   69  cd Kubernetes/
+   70  git status
+   71  git add .
+   72  git commit -m "latest version"
+   73  git push
+   74  cd ..
+   75  git clone https://github.com/manujjoshi/Docker.git
+   76  cd Docker
+   77  git status
+   78  git add .
+   79  git commit -m "latest version"
+   80  git push
+   81  cd ..
+   82  git clone https://github.com/manujjoshi/MLOps.git
+   83  cd MLOps/
+   84  git status
+   85  git add .
+   86  git commit -m "latest version"
+   87  git add .
+   88  git status
+   89  git add *
+   90  git config --global core.autocrlf true
+   91  git add *
+   92  git add --renormalize .
+   93  git status
+   94  git commit -m "Normalize line endings"
+   95  git add .
+   96  ls
+   97  git status
+   98  ls
+   99  git commit -m "latest version"
+  100  git add .
+  101  git add .
+  102  git add .
+  103  git add .
+  104  git status
+  105  git commit -m "latest version"
+  106  git push
+  107  git status
+  108  git status
+  109  git add .
+  110  git commit -m "latest version"
+  111  git push
+  112  git pull
+  113  git push
+  114  git status
+  115  git status
+  116  git add .
+  117  git commit -m "latest version"
+  118  git push
+  119  git config --list
+  120  pwd
+  121  git config --list
+  122  ls
+  123  git status
+  124  cd git_test/
+  125  git status
+  126  git log
+  127  mkdir git_test
+  128  cd git_test/
+  129  git config --list
+  130  git init
+  131  git status
+  132  git status
+  133  clear
+  134  git status
+  135  git add --a
+  136  git commit -m "Initial Commit"
+  137  git status
+  138  git status
+  139  git add --a
+  140  git commit -m "UI Improved"
+  141  clear
+  142  git log
+  143  git status
+  144  git add --a
+  145  git commit -m "New Js added"
+  146  git log
+  147  clear
+  148  git log
+  149  git log
+  150  cd ..
+  151  git logs
+  152  cd Kubernetes/
+  153  git logs
+  154  git log
+  155  cd git_test/
+  156  git log
+  157  git status
+  158  git status
+  159  git add --a
+  160  git status
+  161  git status
+  162  git status
+  163  git add --a
+  164  git commit -m "gitignore_added"
+  165  git status
+  166  git log
+  167  git status
+  168  git status
+  169  git status
+  170  git add --a
+  171  git commit -m "exclude folder"
+  172  git status
+  173  git log
+  174  git status
+  175  clear
+  176  git status
+  177  git add --a
+  178  git commit -m "Project Files"
+  179  git status
+  180  git log
+  181  git status
+  182  git add --a
+  183  git status
+  184  git commit -m "Changes in File1"
+  185  git log
+  186  git status
+  187  git add .
+  188  git status
+  189  clear
+  190  git status
+  191  git diff
+  192  git add .
+  193  git status
+  194  git commit -m "File2 changed"
+  195  git status
+  196  git log
+  197  wq!
+  198  clear
+  199  git status
+  200  git status
+  201  git add .
+  202  git commit -m "name added"
+  203  git git diff --staged
+  204  git diff --staged
+  205  git status
+  206  git diff --staged
+  207  clear
+  208  git diff --staged
+  209  git status
+  210  git add .
+  211  git status
+  212  git diff --staged
+  213  git status
+  214  git commit -m "changes in file2"
+  215  git status
+  216  clear
+  217  git status
+  218  git commit -a -m "Direct commit"
+  219  git add .
+  220  git commit -m "New files"
+  221  git status
+  222  git status
+  223  git commit -a -m "Direct commit"
+  224  git status
+  225  cat file5.txt
+  226  clear
+  227  git add .
+  228  git commit -m "Project files"
+  229  git status
+  230  git status
+  231  git add file7.txt
+  232  git status
+  233  git restore --staged file7.txt
+  234  git status
+  235  clear
+  236  git status
+  237  git add .
+  238  git commit -m "Changes in file 7"
+  239  git status
+  240  git add .
+  241  git commit -m "Files modified"
+  242  git status
+  243  clear
+  244  git status
+  245  git restore file6.txt
+  246  git restore file5.txt
+  247  git status
+  248  git checkout -f
+  249  code .
+  250  git status
+  251  git commit -m "file 3 changed"
+  252  git commit -a -m "file 3 changed"
+  253  git status
+  254  git add .
+  255  git status
+  256  clear
+  257  git status
+  258  git commit -m "renamed file3 to file31"
+  259  git status
+  260  git log
+  261  clear
+  262  git log
+  263  clear
+  264  git status
+  265  git restore file31.txt
+  266  git status
+  267  git add .
+  268  history
+  269  clear
+  270  git status
+  271  git commit -m "new file3 added"
+  272  git mv file4.txt file41.txt
+  273  git status
+  274  git commit -m "renamed file4.txt"
+  275  git status
+  276  git status
+  277  git add .
+  278  git commit -m "new file5 added"
+  279  git status
+  280  git rm file51.txt
+  281  git status
+  282  git restore file51.txt
+  283  git restore file51.txt
+  284  clear
+  285  git status
+  286  git restore --staged file51.txt
+  287  git status
+  288  git restore file51.txt
+  289  git status
+  290  git add .
+  291  git commit -m "latest update"
+  292  git status
+  293  git status
+  294  git rm --cached file51.txt
+  295  git status
+  296  git commit -m "file51 moved to gitignore"
+  297  git status
+  298  clear
+  299  git status
+  300  git push
+  301  git remote add https://github.com/manujjoshi/git_test.git
+  302  git remote add origin https://github.com/manujjoshi/git_test.git
+  303  git push origin master
+  304  clear
+  305  git checkout -b manuj
+  306  git status
+  307  git add .
+  308  git commit -m "First commit"
+  309  git status
+  310  git checkout master
+  311  git checkout manuj
+  312  git push origin manuj
+  313  git checkout -b sid
+  314  git checkout master
+  315  git checkout sid
+  316  git checkout manuj
+  317  git checkout sid
+  318  git checkout master
+  319  git branch
+  320  git checkout manuj
+  321  git status
+  322  git add .
+  323  git commit -m "Changed in Manuj"
+  324  git checkout sid
+  325  git status
+  326  git status
+  327  git add .
+  328  git commit -m "Sid added"
+  329  git checkout manuj
+  330  git checkout sid
+  331  clear
+  332  git checkout master
+  333  git checkout -b shivangi
+  334  git checkout master
+  335  git checkout shivangi
+  336  git status
+  337  git add .
+  338  git commit -m "Shivangi added"
+  339  git push origin shivangi
+  340  git checkout sid
+  341  git push origin sid
+  342  clear
+  343  git checkout -b guru
+  344  git checkout -b master
+  345  git checkout master
+  346  git checkout guru
+  347  git add .
+  348  git status
+  349  git commit -m "Gurvita added"
+  350  git push origin guru
+  351  git checkout sid
+  352  clear
+  353  git checkout manuj
+  354  git status
+  355  git add .
+  356  git commit -m "Sid role"
+  357  git push origin sid
+  358  git checkout manuj
+  359  git status
+  360  git add .
+  361  git commit -m "Manuj role"
+  362  git push origin manuj
+  363  git checkout shivangi
+  364  git status
+  365  git commit -a -m "Shivangi role"
+  366  git push origin shivangi
+  367  git check out guru
+  368  git checkout guru
+  369  git commit -a -m "Gurvita role"
+  370  git push origin guru
+  371  git check out master
+  372  git checkout master
+  373  clear
+  374  git branch
+  375  git merge master
+  376  git merge manuj
+  377  git merge sid
+  378  git merge shivangi
+  379  clear
+  380  git checkout master
+  381  git merge manuj
+  382  git checkout manuj
+  383  git merge --abort # The unresolved conflict will be cleared off
+  384  git checkout manuj
+  385  git status
+  386  git checkout sid
+  387  git status
+  388  git checkout shivangi
+  389  git status
+  390  git checkout guru
+  391  git status
+  392  clear
+  393  git checkout main
+  394  git checkout master
+  395  git merge manuj
+  396  git merge shivangi
+  397  git merge guru
+  398  git merge --abort # The unresolved conflict will be cleared off
+  399  git checkout sid
+  400  ls
+  401  git rm Manuj.txt
+  402  git checkout master
+  403  git merge sid
+  404  git merge --abort # The unresolved conflict will be cleared off
+  405  clear
+  406  git checkout Sid
+  407  git status
+  408  git add .
+  409  git commit -m "Manuj in Sid added"
+  410  git push origin sid
+  411  git push origin Sid
+  412  git checkout guru
+  413  git status
+  414  git add .
+  415  git commit -m "Manuj added in guru"
+  416  git push origin guru
+  417  git checkout master
+  418  git merge Sid
+  419  git merge guru
+  420  git merge --abort # The unresolved conflict will be cleared off
+  421  git checkout guru
+  422  git status
+  423  git commit -a -m "COnflict resolved"
+  424  git push origin guru
+  425  git checkout guru
+  426  git checkout master
+  427  git status
+  428  git add .
+  429  git commit -m "Conflict resolved"
+  430  git push origin guru
+  431  git checkout master
+  432  git merge guru
+  433  clear
+  434  git checkout main
+  435  git checkout manuj
+  436  git pull origin master
+  437  git checkout Sid
+  438  git pull origin master
+  439  git checkout guru
+  440  git pull origin main
+  441  git pull origin master
+  442  git checkout shivangi
+  443  git checkout master
+  444  git push origin master
+  445  git pull origin master
+  446  git checkout manuj
+  447  git pull origin master\
+  448  git pull origin master
+  449  git checkout sid
+  450  git pull origin master
+  451  git checkout shivangi 
+  452  git pull origin master
+  453  git checkout guru
+  454  git pull origin master
+  455  ls
+  456  git status
+  457  git push origin guru
+  458  git checkout manuj
+  459  git push origin master
+  460  git push origin master
+  461  git checkout Sid
+  462  git push origin master
+  463  git checkout shivangi
+  464  git push origin master
+  465  git push origin master
+  466  ls
+  467  git status
+  468  git push origin guru
+  469  git push origin master
+  470  ls
+  471  cd git_test/
+  472  git status
+  473  git push origin master
+  474  git merge shivangi
+  475  git checkout master
+  476  git merge shivangi
+  477  git merge manuj
+  478  git merge Sid
+  479  git merge guru
+  480  git checkout manuj
+  481  git push origin master
+  482  clear
+  483  git branch
+  484  git pull origin master
+  485  ls
+  486  git push origin manuj
+  487  git check Sid
+  488  git checkout Sid
+  489  git push origin Sid
+  490  git checkout shivangi
+  491  git push origin shivangi
+  492  git checkout Sid
+  493  git push origin Sid
+  494  git push origin sid
+  495  git push origin Sid
+  496  git checkout master
+  497  git branch
+  498  git checkout sid
+  499  git push origin sid
+  500  ls
+  501  mkdir github_test
+  502  cd github_test/
+  503  git init
+  504  git status
+  505  git add .
+  506  git coomit -m "Initial commit"
+  507  git commit -m "Initial commit"
+  508  git checkout -b DevA
+  509  git status
+  510  git status
+  511  git add .
+  512  git commit -m "Manuj File added"
+  513  git checkout master
+  514  git checkout -b DevB
+  515  git status
+  516  git add .
+  517  git commit -m "Sid file added"
+  518  git checkout master
+  519  clear
+  520  git branch
+  521  git remote add origin https://github.com/manujjoshi/github_test.git
+  522  git remote -v
+  523  git push origin main
+  524  git push origin master
+  525  git checkout DevA
+  526  git status
+  527  git push origin DevA
+  528  git checkout DevB
+  529  git push origin DevB
+  530  clear
+  531  checkout master
+  532  git checkout master
+  533  git status
+  534  git pull origin master
+  535  git checkout DevA
+  536  git status
+  537  git pull origin master
+  538  git status
+  539  git commit -a -m "Roles added"
+  540  git pull origin master
+  541  git push origin DevA
+  542  git checkout DevB
+  543  git pull origin master
+  544  git checkout DevA
+  545  git checkout DevB
+  546  git status
+  547  git pull origin master
+  548  git commit -a -m "Roles added"
+  549  git push origin DevB
+  550  git checkout master
+  551  git pull origin master
+  552  git checkout DevA
+  553  git pull origin master
+  554  git checkout DevB
+  555  git pull origin master
+  556  git pull origin master
+  557  git checkout master
+  558  git pull origin master
+  559  git checkout DevA
+  560  git checkout DevB
+  561  git push origin DevB
+  562  git checkout DevA
+  563  git push origin DevA
+  564  history
+  565  history > commands.txt
